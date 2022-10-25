@@ -1,3 +1,13 @@
+@font-face {
+  src: url('../fonts/Nunito/Nunito-VariableFont_wght.ttf');
+  font-family: 'Nunito';
+}
+
+@font-face {
+  src: url('../fonts/Rubik/Rubik-VariableFont_wght.ttf');
+  font-family: 'Rubik';
+}
+
 * {
   font-family: 'Nunito';
   font-size: 15px;
@@ -5,61 +15,6 @@
   color: #505050;
   margin: 0;
   padding: 0;
-}
-
-#content {
-  display: none;
-}
-
-.loading-icon {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  margin: -76px 0 0 -76px;
-  text-align: center;
-  padding: 10px;
-}
-
-#loading {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  margin: -76px 0 0 -76px;
-  z-index: 100;
-  width: 140px;
-  height: 140px;
-  border: 1px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 6px solid #3498db;
-  animation: spin 1s linear infinite;
-}
-
-.loading-icon img {
-  animation: loadingpulse alternate 1s infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes loadingpulse {
-  from {
-    width: 120px;
-    height: 120px;
-    text-align: center;
-  }
-
-  to {
-    width: 130px;
-    height: 130px;
-    text-align: center;
-  }
 }
 
 .dp-background-button a,
@@ -107,7 +62,7 @@
 }
 
 .dp-background-title,
-.dp-background-button,
+.dp-background-button a,
 .dp-about-title,
 .dp-thefact,
 .dp-must-have-name,
@@ -135,13 +90,84 @@
   margin: auto;
 }
 
+.dp-must-have,
+.dp-about-road,
 .dp-must-have-icon,
-.dp-must-have-name {
+.dp-must-have-name,
+.dp-must-have-item,
+.dp-background-button a {
   transition: all 0.3s ease;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin: -76px 0 0 -76px;
+  z-index: 100;
+  width: 140px;
+  height: 140px;
+  border: 1px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #3498db;
+  animation: spin 1s linear infinite;
+}
+
+.loading-icon {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin: -76px 0 0 -76px;
+  text-align: center;
+  padding: 10px;
+}
+
+.loading-icon img {
+  animation: loadingpulse alternate 1s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingpulse {
+  from {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+  }
+
+  to {
+    width: 130px;
+    height: 130px;
+    text-align: center;
+  }
+}
+
+#content {
+  display: none;
 }
 
 .content {
   width: 100%;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .dp-background {
@@ -184,7 +210,6 @@
 
 .dp-background-content {
   font-size: 20px;
-  font-weight: 400;
   line-height: 30px;
   text-align: center;
   margin-bottom: 35px;
@@ -217,10 +242,9 @@
 }
 
 .dp-background-button a {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   display: inline-block;
-  transition: all 0.3s ease;
   text-decoration: none !important;
   outline: none !important;
   border: 1px solid #ff5421;
@@ -318,7 +342,6 @@ ul {
   padding: 30px;
   border: 1px solid #dfe9eb;
   border-radius: 5px;
-  transition: all 0.3s ease;
 }
 
 .dp-must-have-item {
