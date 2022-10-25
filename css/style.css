@@ -1,3 +1,13 @@
+@font-face {
+  src: url('../fonts/Nunito/Nunito-VariableFont_wght.ttf');
+  font-family: 'Nunito';
+}
+
+@font-face {
+  src: url('../fonts/Rubik/Rubik-VariableFont_wght.ttf');
+  font-family: 'Rubik';
+}
+
 * {
   font-family: 'Nunito';
   font-size: 15px;
