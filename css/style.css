@@ -15,6 +15,13 @@
   color: #505050;
   margin: 0;
   padding: 0;
+
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 .dp-background-button a,
@@ -85,8 +92,6 @@
 .dp-about-road,
 .dp-must-have-wrapper,
 .dp-must-have-title {
-  width: 86%;
-  display: flex;
   margin: auto;
 }
 
@@ -171,7 +176,7 @@
 }
 
 .dp-background {
-  background-image: url(https://devplus.edu.vn/assets/images/devplus/Devplus_missions.png);
+  background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -258,6 +263,8 @@
 }
 
 .dp-about-road {
+  width: 86%;
+  display: flex;
   flex-direction: row;
 }
 
@@ -334,12 +341,13 @@ ul {
 }
 
 .dp-must-have-wrapper {
+  width: 84%;
+  display: flex;
   flex-wrap: wrap;
-
 }
 
 .dp-must-have-item {
-  padding: 30px;
+  padding: 20px;
   border: 1px solid #dfe9eb;
   border-radius: 5px;
 }
@@ -348,7 +356,7 @@ ul {
   display: flex;
   align-items: center;
   background: #ffffff;
-  flex: 25.33%;
+  flex: 30.9%;
   height: 150px;
   margin: 20px 15px;
 }
@@ -391,9 +399,9 @@ img {
     max-width: 1170px;
   }
 
-  /* .dp-must-have-item {
-    width: 41%;
-  } */
+  .dp-must-have-item {
+    flex: 23.9%;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -401,10 +409,13 @@ img {
     max-width: 1040px;
   }
 
-  /* .dp-must-have-item {
-    flex: 0 0 auto;
-    width: 30%;
-  } */
+  .dp-must-have-wrapper {
+    width: 94%;
+  }
+
+  .dp-must-have-item {
+    flex: 27%;
+  }
 }
 
 @media only screen and (max-width: 1110px) {
@@ -412,9 +423,13 @@ img {
     max-width: 960px;
   }
 
-  /* .dp-must-have-item {
-    width: 39%;
+  /* .dp-must-have-wrapper {
+    width: 80%;
   } */
+
+  .dp-must-have-item {
+    flex: 27%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -441,9 +456,17 @@ img {
     font-size: 30px;
   }
 
-  /* .dp-must-have-item {
-    width: 35%;
-  } */
+  .dp-must-have-title {
+    font-size: 30px;
+  }
+
+  .dp-must-have-wrapper {
+    /* width: 35%; */
+  }
+
+  .dp-must-have-item {
+    flex: 40%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -492,6 +515,10 @@ img {
   }
 
   .dp-thefact {
+    font-size: 25px;
+  }
+
+  .dp-must-have-title {
     font-size: 25px;
   }
 
