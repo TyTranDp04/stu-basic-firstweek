@@ -1,0 +1,506 @@
+* {
+  font-family: 'Nunito';
+  font-size: 15px;
+  font-weight: 400;
+  color: #505050;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  display: none;
+}
+
+.loading-icon {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin: -76px 0 0 -76px;
+  text-align: center;
+  padding: 10px;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin: -76px 0 0 -76px;
+  z-index: 100;
+  width: 140px;
+  height: 140px;
+  border: 1px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #3498db;
+  animation: spin 1s linear infinite;
+}
+
+.loading-icon img {
+  animation: loadingpulse alternate 1s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingpulse {
+  from {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+  }
+
+  to {
+    width: 130px;
+    height: 130px;
+    text-align: center;
+  }
+}
+
+.dp-background-button a,
+.dp-background-title,
+.dp-road-title,
+.dp-must-have-item:hover .dp-must-have-content .dp-must-have-name,
+.dp-must-have-item:hover .dp-must-have-content .dp-must-have-course {
+  color: #ffffff;
+}
+
+.dp-about-title,
+.number {
+  color: #226FB7;
+}
+
+.dp-thefact,
+.dp-must-have-name,
+.dp-must-have-title {
+  color: #111111;
+}
+
+.dp-background-content,
+.dp-background-button a,
+.dp-about-title,
+.dp-about-content,
+.desc,
+.dp-must-have-course {
+  font-family: 'Rubik';
+}
+
+.dp-about-title,
+.dp-about-content {
+  font-size: 18px;
+}
+
+.dp-thefact,
+.dp-must-have-title {
+  font-size: 36px;
+}
+
+.dp-road-title,
+.number,
+.desc {
+  font-weight: 600;
+}
+
+.dp-background-title,
+.dp-background-button,
+.dp-about-title,
+.dp-thefact,
+.dp-must-have-name,
+.dp-must-have-title {
+  font-weight: 700;
+}
+
+.dp-about,
+.dp-road-content,
+.dp-must-have-item:hover .dp-must-have-icon {
+  background: #e7f4f6;
+
+}
+
+.dp-road-title,
+.dp-must-have-item:hover {
+  background: #226FB7;
+}
+
+.dp-about-road,
+.dp-must-have-wrapper,
+.dp-must-have-title {
+  width: 86%;
+  display: flex;
+  margin: auto;
+}
+
+.dp-must-have-icon,
+.dp-must-have-name {
+  transition: all 0.3s ease;
+}
+
+.content {
+  width: 100%;
+}
+
+.dp-background {
+  background-image: url(https://devplus.edu.vn/assets/images/devplus/Devplus_missions.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 125px 0 425px;
+  position: relative;
+  z-index: 1;
+}
+
+.dp-background-title,
+.dp-background-content,
+.dp-background-button {
+  max-width: 750px;
+  margin: auto;
+  visibility: visible;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+.dp-background-title {
+  font-size: 55px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  text-align: center;
+  animation: bntitle 3s;
+}
+
+@keyframes bntitle {
+  from {
+    left: -500px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+.dp-background-content {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 35px;
+  animation: bncontent 3s;
+}
+
+@keyframes bncontent {
+  from {
+    right: -500px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+.dp-background-button {
+  text-align: center !important;
+  animation: bnbutton 2s;
+}
+
+@keyframes bnbutton {
+  from {
+    bottom: -500px;
+  }
+
+  to {
+    bottom: 0px;
+  }
+}
+
+.dp-background-button a {
+  font-size: 16px;
+  line-height: 26px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+  border: 1px solid #ff5421;
+  border-radius: 30px;
+  background: #ff5421;
+  padding: 16px 58px;
+}
+
+.dp-background-button a:hover {
+  background: rgb(205, 65, 9);
+}
+
+.dp-about-road {
+  flex-direction: row;
+}
+
+.dp-about {
+  padding: 60px 60px 70px;
+  border-radius: 5px;
+  margin: -60px 50px 0 0;
+  z-index: 10;
+  flex: 66%;
+}
+
+.dp-about-title {
+  margin-bottom: 8px;
+  line-height: 28px;
+}
+
+.dp-thefact {
+  margin-bottom: 26px;
+}
+
+.dp-about-content {
+  line-height: 30px;
+}
+
+.dp-road {
+  margin-top: -60px;
+  flex: 34%;
+  z-index: 10;
+}
+
+.dp-road-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 18px 25px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dp-road-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.number {
+  flex: 30%;
+  border-right: 1px solid #226FB7;
+  text-align: center;
+  font-size: 22px;
+}
+
+.desc {
+  flex: 70%;
+  padding-left: 10px;
+
+}
+
+.dp-must-have {
+  width: 100%;
+  background: #f3f8f9;
+  padding: 94px 0 70px;
+  margin-top: 100px;
+}
+
+.dp-must-have-title {
+  margin-bottom: 50px;
+  padding-left: 25px;
+}
+
+.dp-must-have-wrapper {
+  flex-wrap: wrap;
+
+}
+
+.dp-must-have-item {
+  padding: 30px;
+  border: 1px solid #dfe9eb;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.dp-must-have-item {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  flex: 25.33%;
+  height: 150px;
+  margin: 20px 15px;
+}
+
+.dp-must-have-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: rgba(22, 170, 202, 0.2);
+  text-align: center;
+}
+
+.dp-must-have-name {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1440px) {
+  .dp-background-title {
+    font-size: 45px;
+  }
+
+  .dp-about-road {
+    max-width: 1270px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .dp-about-road {
+    max-width: 1170px;
+  }
+
+  /* .dp-must-have-item {
+    width: 41%;
+  } */
+}
+
+@media only screen and (max-width: 1199px) {
+  .dp-about-road {
+    max-width: 1040px;
+  }
+
+  /* .dp-must-have-item {
+    flex: 0 0 auto;
+    width: 30%;
+  } */
+}
+
+@media only screen and (max-width: 1110px) {
+  .dp-about-road {
+    max-width: 960px;
+  }
+
+  /* .dp-must-have-item {
+    width: 39%;
+  } */
+}
+
+@media only screen and (max-width: 991px) {
+  .dp-background-title {
+    font-size: 40px;
+  }
+
+  .dp-about-road {
+    width: 80%;
+    flex-direction: column-reverse;
+  }
+
+  .dp-about,
+  .dp-road {
+    flex: 100%;
+    margin: 60px 15px 0;
+  }
+
+  .dp-road {
+    padding: 0;
+  }
+
+  .dp-thefact {
+    font-size: 30px;
+  }
+
+  /* .dp-must-have-item {
+    width: 35%;
+  } */
+}
+
+@media only screen and (max-width: 768px) {
+  .dp-background-title {
+    font-size: 35px;
+  }
+
+  .dp-about-road {
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+
+  .dp-about,
+  .dp-road {
+    margin-top: 60px;
+  }
+
+  .dp-about {
+    margin-right: 13px;
+  }
+
+  .dp-thefact {
+    font-size: 30px;
+  }
+
+  .dp-must-have-item {
+    flex: 40%;
+    /* margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .dp-background-title {
+    font-size: 30px;
+  }
+
+  .dp-background-content {
+    font-size: 18px;
+  }
+
+  .dp-about-road {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .dp-thefact {
+    font-size: 25px;
+  }
+
+  /* .dp-must-have-item {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  } */
+}
+
+@media only screen and (max-width: 425px) {
+  .dp-background {
+    padding: 125px 15px 425px;
+  }
+
+  .dp-background-title {
+    font-size: 25px;
+  }
+
+  .dp-background-content {
+    font-size: 18px;
+  }
+
+  .dp-background-button {
+    font-size: 15px;
+  }
+
+  .dp-about-road {
+    flex-direction: column-reverse;
+  }
+
+  .dp-thefact {
+    font-size: 20px;
+  }
+}
