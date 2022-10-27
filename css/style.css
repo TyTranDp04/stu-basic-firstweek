@@ -24,83 +24,83 @@
   box-sizing: border-box;
 }
 
-.content__background-button a,
-.content__background-title,
-.content__road-title,
-.content__must__have-item:hover .content__must__have-content .content__must__have-name,
-.content__must__have-item:hover .content__must__have-content .content__must__have-course {
+.dp__background-button a,
+.dp__background-title,
+.dp__road-title,
+.dp__must__have-item:hover .dp__must__have-content .dp__must__have-name,
+.dp__must__have-item:hover .dp__must__have-content .dp__must__have-course {
   color: #ffffff;
 }
 
-.content__about-title,
+.dp__about-title,
 .number {
   color: #226FB7;
 }
 
-.content__about-thefact,
-.content__must__have-name,
-.content__must__have-title {
+.dp__about-thefact,
+.dp__must__have-name,
+.dp__must__have-title {
   color: #111111;
 }
 
-.content__background-content,
-.content__background-button a,
-.content__about-title,
-.content__about-desc,
+.dp__background-content,
+.dp__background-button a,
+.dp__about-title,
+.dp__about-desc,
 .desc,
-.content__must__have-course {
+.dp__must__have-course {
   font-family: 'Rubik';
 }
 
-.content__about-title,
-.content__about-desc {
+.dp__about-title,
+.dp__about-desc {
   font-size: 18px;
 }
 
-.content__about-thefact,
-.content__must__have-title {
+.dp__about-thefact,
+.dp__must__have-title {
   font-size: 36px;
 }
 
-.content__road-title,
+.dp__road-title,
 .number,
 .desc {
   font-weight: 600;
 }
 
-.content__background-title,
-.content__background-button a,
-.content__about-title,
-.content__about-thefact,
-.content__must__have-name,
-.content__must__have-title {
+.dp__background-title,
+.dp__background-button a,
+.dp__about-title,
+.dp__about-thefact,
+.dp__must__have-name,
+.dp__must__have-title {
   font-weight: 700;
 }
 
-.content__about,
-.content__road-content,
-.content__must__have-item:hover .content__must__have-icon {
+.dp__about,
+.dp__road-content,
+.dp__must__have-item:hover .dp__must__have-icon {
   background: #e7f4f6;
 
 }
 
-.content__road-title,
-.content__must__have-item:hover {
+.dp__road-title,
+.dp__must__have-item:hover {
   background: #226FB7;
 }
 
-.content__about__road,
-.content__must__have-wrapper,
-.content__must__have-title {
+.dp__about__road,
+.dp__must__have-wrapper,
+.dp__must__have-title {
   margin: auto;
 }
 
-.content__must__have,
-.content__about__road,
-.content__must__have-icon,
-.content__must__have-name,
-.content__must__have-item,
-.content__background-button a {
+.dp__must__have,
+.dp__about__road,
+.dp__must__have-icon,
+.dp__must__have-name,
+.dp__must__have-item,
+.dp__background-button a {
   transition: all 0.3s ease;
 }
 
@@ -182,7 +182,7 @@
   opacity: 1;
 }
 
-.content__background {
+.dp__background {
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -192,9 +192,9 @@
   z-index: 1;
 }
 
-.content__background-title,
-.content__background-content,
-.content__background-button {
+.dp__background-title,
+.dp__background-content,
+.dp__background-button {
   max-width: 750px;
   margin: auto;
   visibility: visible;
@@ -202,7 +202,7 @@
   animation-fill-mode: forwards;
 }
 
-.content__background-title {
+.dp__background-title {
   font-size: 55px;
   line-height: 1.2;
   margin-bottom: 16px;
@@ -210,7 +210,7 @@
   animation: bntitle 2s;
 }
 
-.content__background-content {
+.dp__background-content {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -218,7 +218,7 @@
   animation: bncontent 2s;
 }
 
-.content__background-button {
+.dp__background-button {
   text-align: center !important;
   animation: bnbutton 2s;
 }
@@ -253,7 +253,7 @@
   }
 }
 
-.content__background-button a {
+.dp__background-button a {
   font-size: 16px;
   line-height: 26px;
   display: inline-block;
@@ -265,17 +265,17 @@
   padding: 16px 58px;
 }
 
-.content__background-button a:hover {
+.dp__background-button a:hover {
   background: #ff914d;
 }
 
-.content__about__road {
+.dp__about__road {
   width: 82%;
   display: flex;
   flex-direction: row;
 }
 
-.content__about {
+.dp__about {
   padding: 60px 60px 70px;
   border-radius: 5px;
   margin: -60px 50px 0 0;
@@ -283,27 +283,27 @@
   flex: 64%;
 }
 
-.content__about-title {
+.dp__about-title {
   margin-bottom: 8px;
   line-height: 28px;
 }
 
-.content__about-thefact {
+.dp__about-thefact {
   margin-bottom: 26px;
 }
 
-.content__about-desc {
+.dp__about-desc {
   line-height: 30px;
 }
 
-.content__road {
+.dp__road {
   margin-top: -60px;
   flex: 36%;
   z-index: 10;
   padding-left: 15px;
 }
 
-.content__road-title {
+.dp__road-title {
   margin-bottom: 10px;
   font-size: 20px;
   padding: 18px 25px;
@@ -314,7 +314,7 @@ ul {
   list-style-type: none;
 }
 
-.content__road-content {
+.dp__road-content {
   display: flex;
   align-items: center;
   position: relative;
@@ -336,33 +336,33 @@ ul {
 
 }
 
-.content__must__have {
+.dp__must__have {
   width: 100%;
   background: #f3f8f9;
   padding: 94px 0 70px;
   margin-top: 100px;
 }
 
-.content__must__have-title {
+.dp__must__have-title {
   width: 84%;
   margin-bottom: 30px;
   padding-left: 18px;
 }
 
-.content__must__have-wrapper {
+.dp__must__have-wrapper {
   width: 84%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.content__must__have-item {
+.dp__must__have-item {
   padding: 20px;
   border: 1px solid #dfe9eb;
   border-radius: 5px;
 }
 
-.content__must__have-item {
+.dp__must__have-item {
   display: flex;
   align-items: center;
   background: #ffffff;
@@ -371,7 +371,7 @@ ul {
   margin: 20px 15px;
 }
 
-.content__must__have-icon {
+.dp__must__have-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -383,7 +383,7 @@ ul {
   text-align: center;
 }
 
-.content__must__have-name {
+.dp__must__have-name {
   margin-bottom: 5px;
   font-size: 22px;
 }
