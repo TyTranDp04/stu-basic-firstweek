@@ -122,22 +122,25 @@
     padding: 0 10px;
   }
 
-  .content__background-content {
+  .content__background-content,
+  .content__must__have-name {
     font-size: 18px;
   }
 
   .content__background-button a {
     padding: 10px 30px !important;
-    font-size: 15px;  
+    font-size: 15px;
   }
 
   .content__about__road {
     width: 100%;
     flex-direction: column-reverse;
   }
+
   .content__about {
     padding: 40px 30px 50px;
   }
+
   .content__about-thefact,
   .content__must__have-title {
     font-size: 25px;
