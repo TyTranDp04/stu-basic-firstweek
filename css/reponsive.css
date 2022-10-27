@@ -1,0 +1,171 @@
+@media only screen and (max-width: 1440px) {
+  .content__background-title {
+    font-size: 45px;
+  }
+
+  .content__about__road {
+    max-width: 1270px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .content__about__road {
+    max-width: 1170px;
+  }
+
+  .content__must__have-item {
+    flex: 23.9%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .content__about__road {
+    max-width: 1040px;
+  }
+
+  .content__must__have-wrapper {
+    width: 97%;
+  }
+
+  .content__must__have-item {
+    flex: 27%;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .content__about__road {
+    max-width: 960px;
+  }
+
+  .content__must__have-item {
+    flex: 27%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .content__background-title {
+    font-size: 40px;
+  }
+
+  .content__background-title,
+  .content__background-content,
+  .content__background-button {
+    max-width: 685px;
+  }
+
+  .content__about__road {
+    width: 80%;
+    flex-direction: column-reverse;
+  }
+
+  .content__about,
+  .content__road {
+    flex: 100%;
+    margin: 60px 15px 0;
+  }
+
+  .content__road {
+    padding: 0;
+  }
+
+  .content__about-thefact {
+    font-size: 30px;
+  }
+
+  .content__must__have-title {
+    font-size: 30px;
+  }
+
+  .content__must__have-wrapper {
+    width: 95%;
+    justify-content: space-between;
+  }
+
+  .content__must__have-item {
+    flex: 0 0 auto;
+    width: 45.8%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .content__background-title {
+    font-size: 35px;
+  }
+
+  .content__about__road {
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+
+  .content__about,
+  .content__road {
+    margin-top: 60px;
+  }
+
+  .content__about {
+    margin-right: 13px;
+  }
+
+  .content__about-thefact {
+    font-size: 30px;
+  }
+
+  .content__must__have-item {
+    flex: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .content__background-title {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+
+  .content__background-content {
+    font-size: 18px;
+  }
+
+  .content__background-button a {
+    padding: 10px 30px !important;
+    font-size: 15px;  
+  }
+
+  .content__about__road {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .content__about {
+    padding: 40px 30px 50px;
+  }
+  .content__about-thefact,
+  .content__must__have-title {
+    font-size: 25px;
+  }
+
+  .content__must__have-wrapper {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .content__background {
+    padding: 125px 15px 425px;
+  }
+
+  .content__background-title {
+    font-size: 25px;
+  }
+
+  .content__background-content {
+    font-size: 18px;
+  }
+
+  .content__background-button {
+    font-size: 15px;
+  }
+
+  .content__about__road {
+    flex-direction: column-reverse;
+  }
+}
