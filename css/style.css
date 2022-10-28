@@ -307,11 +307,11 @@ a {
   flex: 50%;
 }
 
-img {
+/* img {
   width: 100%;
   height: auto;
 
-}
+} */
 
 .amission_content {
   padding: 0px 29px 0px 120px;
@@ -380,4 +380,380 @@ h1{
   width: 6px;
   height: 6px;
   background: #226FB7;
+}
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.dp__background-button a,
+.dp__background-title,
+.dp__road-title,
+.dp__must__have-item:hover .dp__must__have-content .dp__must__have-name,
+.dp__must__have-item:hover .dp__must__have-content .dp__must__have-course {
+  color: #ffffff;
+}
+
+.dp__about-title,
+.number {
+  color: #226FB7;
+}
+
+.dp__about-thefact,
+.dp__must__have-name,
+.dp__must__have-title {
+  color: #111111;
+}
+
+.dp__background-desc,
+.dp__background-button a,
+.dp__about-title,
+.dp__about-desc,
+.desc,
+.dp__must__have-course {
+  font-family: 'Rubik';
+}
+
+.dp__about-title,
+.dp__about-desc {
+  font-size: 18px;
+}
+
+.dp__about-thefact,
+.dp__must__have-title {
+  font-size: 36px;
+}
+
+.dp__road-title,
+.number,
+.desc {
+  font-weight: 600;
+}
+
+.dp__background-title,
+.dp__background-button a,
+.dp__about-title,
+.dp__about-thefact,
+.dp__must__have-name,
+.dp__must__have-title {
+  font-weight: 700;
+}
+
+.dp__about,
+.dp__road-content,
+.dp__must__have-item:hover .dp__must__have-icon {
+  background: #e7f4f6;
+
+}
+
+.dp__road-title,
+.dp__must__have-item:hover {
+  background: #226FB7;
+}
+
+.dp__about__road,
+.dp__must__have-wrapper,
+.dp__must__have-title {
+  margin: auto;
+}
+
+.dp__must__have,
+.dp__about__road,
+.dp__must__have-icon,
+.dp__must__have-name,
+.dp__must__have-item,
+.dp__background-button a {
+  transition: all 0.3s ease;
+}
+
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -80px 0 0 -90px;
+  animation: spin 1s linear infinite;
+  background-color: #fff;
+  height: 140px;
+  width: 140px;
+  border: 5px solid #ebebec;
+  border-radius: 50%;
+}
+
+.loading-border {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border-top: 5px solid #226FB7;
+  margin: -70px 0 0 -70px;
+}
+
+.loading-icon {
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -76px 0 0 -76px;
+  text-align: center;
+  padding: 5px;
+}
+
+.loading-icon img {
+  animation: loadingpulse 1s alternate infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingpulse {
+  from {
+    width: 120px;
+  }
+
+  to {
+    width: 100px;
+  }
+}
+
+#content {
+  display: none;
+}
+
+.content {
+  width: 100%;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.dp__background {
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 125px 0 425px;
+  position: relative;
+  z-index: 1;
+}
+
+.dp__background-title,
+.dp__background-desc,
+.dp__background-button {
+  max-width: 750px;
+  margin: auto;
+  visibility: visible;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+.dp__background-title {
+  font-size: 55px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  text-align: center;
+  animation: bntitle 2s;
+}
+
+.dp__background-desc {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 35px;
+  animation: bncontent 2s;
+}
+
+.dp__background-button {
+  text-align: center !important;
+  animation: bnbutton 2s;
+}
+
+@keyframes bncontent {
+  from {
+    right: -500px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes bntitle {
+  from {
+    left: -500px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes bnbutton {
+  from {
+    bottom: -500px;
+  }
+
+  to {
+    bottom: 0px;
+  }
+}
+
+.dp__background-button a {
+  font-size: 16px;
+  line-height: 26px;
+  display: inline-block;
+  text-decoration: none !important;
+  outline: none !important;
+  border: 1px solid #ff5421;
+  border-radius: 30px;
+  background: #ff5421;
+  padding: 16px 58px;
+}
+
+.dp__background-button a:hover {
+  background: #ff914d;
+}
+
+.dp__about__road {
+  width: 82%;
+  display: flex;
+  flex-direction: row;
+}
+
+.dp__about {
+  padding: 60px 60px 70px;
+  border-radius: 5px;
+  margin: -60px 50px 0 0;
+  z-index: 10;
+  flex: 64%;
+}
+
+.dp__about-title {
+  margin-bottom: 8px;
+  line-height: 28px;
+}
+
+.dp__about-thefact {
+  margin-bottom: 26px;
+}
+
+.dp__about-desc {
+  line-height: 30px;
+}
+
+.dp__road {
+  margin-top: -60px;
+  flex: 36%;
+  z-index: 10;
+  padding-left: 15px;
+}
+
+.dp__road-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 18px 25px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dp__road-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.number {
+  flex: 30%;
+  border-right: 1px solid #226FB7;
+  text-align: center;
+  font-size: 22px;
+}
+
+.desc {
+  flex: 70%;
+  padding-left: 10px;
+
+}
+
+.dp__must__have {
+  width: 100%;
+  background: #f3f8f9;
+  padding: 94px 0 70px;
+  margin-top: 100px;
+}
+
+.dp__must__have-title {
+  width: 84%;
+  margin-bottom: 30px;
+  padding-left: 18px;
+}
+
+.dp__must__have-wrapper {
+  width: 84%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dp__must__have-item {
+  padding: 20px;
+  border: 1px solid #dfe9eb;
+  border-radius: 5px;
+}
+
+.dp__must__have-item {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  flex: 30.9%;
+  height: 150px;
+  margin: 20px 15px;
+}
+
+.dp__must__have-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: rgba(22, 170, 202, 0.2);
+  text-align: center;
+}
+
+.dp__must__have-name {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
