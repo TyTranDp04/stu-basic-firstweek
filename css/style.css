@@ -174,7 +174,7 @@ nav{
   width: 13vw;
   padding: 12px 0;
   left:0px;
-  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+  box-shadow: 0 0 20px rgb(0 0 0 / 15%);ur
   z-index: 5;
   font-weight: 300;
   opacity: 0;
@@ -1441,7 +1441,16 @@ img {
   margin-left: 2px;
   box-shadow: 0px 0px 1px rgb(0 0 0 / 40%);
   border: 0px solid #226fb7;
-  z-index: 1;
+  z-index: 1000;
+  cursor:pointer;
+
+}
+.button_to-the-top i{
+  color: #fff;
+
+}
+.button_to-the-top:hover{
+  opacity:.6;
 }
 
 
@@ -1479,7 +1488,7 @@ img {
 
 /* our-main */
 .dp-campus{
-  background: url("../images/home-8-bg.jpg");
+  background: url("../images/home.png");
   background-size: cover;
   background-repeat: no-repeat, repeat;
   background-position: center center;
