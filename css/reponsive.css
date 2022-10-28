@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Reponsive */
 @media only screen and (max-width :992px) {
     .dp-admission,.footer_content {
@@ -17,6 +16,7 @@
     .amission_content{
         padding: 0 25px;
         margin-right: 0;
+        width: 100%;
     }
 
   
@@ -37,7 +37,6 @@
 
 
 
-=======
 @media only screen and (max-width: 1440px) {
   .dp__background-title {
     font-size: 45px;
@@ -212,4 +211,3 @@
     flex-direction: column-reverse;
   }
 }
->>>>>>> b514e89d27a915946405226c79abeadcb32e6740
