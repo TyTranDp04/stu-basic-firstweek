@@ -10,7 +10,7 @@ $(".alumni-saying__card").slick({
       "<img class='a-left control-c prev slick-prev' src='YOUR LEFT ARROW IMAGE URL'>",
     nextArrow:
       "<img class='a-right control-c next slick-next' src='YOUR RIGHT ARROW IMAGE URL'>",
-    autoplaySpeed: 10000,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 900,

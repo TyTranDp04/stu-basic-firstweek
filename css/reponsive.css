@@ -240,7 +240,7 @@
     flex-direction: column-reverse;
   }
 }
-/* responsive */
+/* responsive  hung */
 
 @media (max-width: 1200px) {
   .concerns__collapse-content-item {
@@ -332,6 +332,7 @@
   .concerns__collapse-content-item .c__btn{
     width: 65%;
     height: 85px; 
+    padding: 0 40px;
   }
   .concerns__collapse-content-item .c__btn::before{
     left: 24%;
@@ -342,7 +343,13 @@
   .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header .alumni-saying__header-1{
     font-size: 21px;
   }
- 
+  .concerns__item__content{
+    width:65%;
+  }
+  .concerns__collapse-title h2 {
+    font-size: 32px;
+    line-height: 30px;
+  }
 }
 @media (max-width: 350px) {
   .concerns__collapse-content-item{
@@ -354,6 +361,19 @@
   .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header{
     padding:30px;
   }
+  .alumni-saying__item-header .heard-2__img {
+    left: 35%;
+  }
+  .concerns__item__content{
+    width:65%;
+  }
+  .concerns__collapse-content-item .c__btn{
+    padding: 0 20px;
+  }
+  .concerns__collapse-title h2 {
+    font-size: 32px;
+    line-height: 30px;
+  }
 }
 @media (max-width: 270px) {
   .concerns__collapse-title h2{
@@ -362,8 +382,15 @@
   .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header{
     padding:30px;
   }
+  .alumni-saying__item-header .heard-2__img{
+    left: 32%;
+  }
+  .concerns__collapse-content-item .c__btn{
+    padding: 0 10px;
+  }
 }
 
+/* end responsive hung */
 /* end responsive */
 
 /* Tuan-reponsive-Footer */
@@ -408,6 +435,38 @@
 }
 
 
+/* Tuan 3.5 admission */
+@media only screen and (max-width :992px) {
+  .dp-admission {
+      flex-direction: column;
 
+  }
+
+  .admission_img, .amission_content {
+      flex: 100%;
+
+  }
+  .admission_img{
+      padding: 0;
+  }
+   .amission_content{
+       padding: 0 25px; 
+      margin-right: 0;
+      width: 100%;
+  }
+
+
+  .amission_content_container {
+      max-width: 700px;
+      
+  }
+}
+
+@media only screen and (max-width: 575px) {
+ 
+  .dp-admission .amission_content_btn_apply {
+    padding: 14px 30px;
+}
+}
 
 
