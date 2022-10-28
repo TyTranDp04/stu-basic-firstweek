@@ -259,6 +259,10 @@
     left: 50%;
     transform: translate(-50%);
   }
+.concerns__img-video .close {
+  top:10px;
+  left:90%;
+}
 }
 @media (max-width: 580px) {
   .concerns__collapse-content-item .c__btn{
