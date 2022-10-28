@@ -235,7 +235,7 @@
     .alumni-saying__item
     .alumni-saying__item-header {
     width: 100%;
-    padding: 30px;
+    padding: 80px;
     min-height: 200px;
   }
   .alumni-saying__body
@@ -274,6 +274,7 @@
   .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header .alumni-saying__header-1{
     font-size: 21px;
   }
+ 
 }
 @media (max-width: 350px) {
   .concerns__collapse-content-item{
@@ -282,10 +283,16 @@
   .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header .alumni-saying__header-1{
     font-size: 16px;
   }
+  .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header{
+    padding:30px;
+  }
 }
 @media (max-width: 270px) {
   .concerns__collapse-title h2{
     font-size: 22px;
+  }
+  .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header{
+    padding:30px;
   }
 }
 
