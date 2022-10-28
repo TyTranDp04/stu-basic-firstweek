@@ -274,7 +274,9 @@
     margin-bottom: 30px;
     height: 355px;
   }
-  
+  .footer .footer_content {
+    padding: 64px 0;
+  }
 }
 
 
@@ -547,12 +549,13 @@
 }
 @media (max-width: 580px) {
   .concerns__collapse-content-item .c__btn{
-    width: 65%;
+    width: 100%;
     height: 85px; 
     padding: 0 40px;
+    font-size: 14px;
   }
   .concerns__collapse-content-item .c__btn::before{
-    left: 24%;
+    left: 15%;
   }
   .concerns__collapse-content-item{
     margin-top: 10%;

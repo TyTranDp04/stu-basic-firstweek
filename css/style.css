@@ -45,7 +45,7 @@ a{
       transform: scaleY(1);
   }
 }
-@-webkit-keyframes zoomInDown {
+@keyframes zoomInDown {
   from {
     opacity: 0;
     transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
@@ -125,8 +125,6 @@ nav{
 }
 .main__nav li:first-child a {
   color: #226fb7;
-  /* font-size: 0.978vw; */
-
 }
 .main__nav .sub__menu {
   display: flex;
@@ -174,7 +172,7 @@ nav{
   width: 13vw;
   padding: 12px 0;
   left:0px;
-  box-shadow: 0 0 20px rgb(0 0 0 / 15%);ur
+  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
   z-index: 5;
   font-weight: 300;
   opacity: 0;
@@ -233,7 +231,6 @@ nav{
   display: block;
 }
 
-
 /* right menu */
 
 .right__menu{
@@ -274,10 +271,10 @@ nav{
   cursor: pointer;
 }
 .close__btn:hover .line .line1 { 
-  -webkit-transform: rotate(315deg) translateZ(0);
+  transform: rotate(315deg) translateZ(0);
 }
 .close__btn:hover .line .line2 {
-  -webkit-transform: rotate(405deg) translateZ(0);
+  transform: rotate(405deg) translateZ(0);
 }
 .line{
   width: 40px;
@@ -293,7 +290,7 @@ nav{
   height:1px;
   background-color: rgb(255, 255, 255);
   transform: rotate(45deg);
-  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
 }
 .line2 {
   left: 25.3%;
@@ -304,7 +301,7 @@ nav{
   height:1px;
   background-color: #fff;
   transform: rotate(135deg);
-  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
 }
 .right__menu-logo{
   width: 100%;
@@ -392,9 +389,6 @@ nav{
   
 }
 /* modal-image */
-.modal{
-  
-}
 
 .modal__active{
   display: flex; 
@@ -633,7 +627,9 @@ nav{
   }
 }
 
-#content {
+#content,
+#header,
+#footer {
   display: none;
 }
 
@@ -645,7 +641,7 @@ nav{
   position: relative;
   transform: translateY(150px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 1.5s all ease;
 }
 
 .reveal.active {
@@ -1096,6 +1092,7 @@ img {
   font-size: 36px;
   font-weight: bolder;
   position: relative;
+  color:#111111;
 }
 /* end title  */
 
@@ -1317,7 +1314,7 @@ img {
 .footer li {
   color: white;
   display: list-item;
-  text-align: -webkit-match-parent;
+  text-align: match-parent;
   padding-left: 15px;
   position: relative;
   margin-bottom: 11px;
