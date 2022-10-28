@@ -323,3 +323,82 @@
 }
 
 /* end responsive hung */
+/* end responsive */
+
+/* Tuan-reponsive-Footer */
+
+
+@media only screen and (max-width: 1366px) {
+  .footer_content {
+    max-width: 1170px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer_content {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  .footer_content {
+    max-width: 720px;
+  }
+  .footer_content {
+    flex-direction: column;
+  }
+  .footer_content_for-devplus,
+  .footer_content_our-campus,
+  .footer_content_the-skill,
+  .footer_content_address {
+    flex: 100%;
+  }
+  .facebook-text {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) { 
+  .footer_content {
+    max-width: 540px;
+  }
+}
+
+
+/* Tuan 3.5 admission */
+@media only screen and (max-width :992px) {
+  .dp-admission {
+      flex-direction: column;
+
+  }
+
+  .admission_img, .amission_content {
+      flex: 100%;
+
+  }
+  .admission_img{
+      padding: 0;
+  }
+   .amission_content{
+       padding: 0 25px; 
+      margin-right: 0;
+      width: 100%;
+  }
+
+
+  .amission_content_container {
+      max-width: 700px;
+      
+  }
+}
+
+@media only screen and (max-width: 575px) {
+ 
+  .dp-admission .amission_content_btn_apply {
+    padding: 14px 30px;
+}
+}
+
+

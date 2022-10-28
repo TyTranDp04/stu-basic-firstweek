@@ -458,12 +458,15 @@ img {
   flex-wrap: wrap;
 }
 .concerns__collapse-content-item .c__btn {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
   width: 100%;
   height: 70px;
   border: none;
   border-radius: 5px;
   background-color: #ffffff;
-  font-size: 15px;
+  color: #111111;
+  font-size: 16px;
   padding: 0 60px;
 }
 .concerns__collapse-content-item .c__btn::before {
@@ -679,8 +682,9 @@ img {
   color: #505050;
   padding: 80px 30px 30px;
   font-size: 23px;
-  font-weight: 700;
-  font-family: italic;
+  font-weight: 600;
+  font-style: italic;
+  font-family: 'Rubik',sans-serif;
 }
 .alumni-saying__body
   .alumni-saying__content
@@ -764,3 +768,340 @@ img {
 /* end body */
 
 /* end css alumni-saying */
+
+/* Tuan-footer */
+.footer {
+  background-image: url(../images/footer-bg.png);
+  background-color: #273c66;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  color: #505050;
+  font-family: "Rubik", sans-serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.footer .footer_content {
+  display: flex;
+  color: white;
+  margin: auto;
+  width: 85%;
+}
+
+.footer .footer_content_the-skill,
+.footer .footer_content_for-devplus,
+.footer .footer_content_our-campus,
+.footer.footer_content_address {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.footer .footer_content_the-skill_tittle,
+.footer .footer_content_for-devplus_tittle,
+.footer .footer_content_our-campus_tittle,
+.footer .footer_content_address_tittle {
+  padding-bottom: 25px;
+}
+
+.footer .footer_content p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.footer .text {
+  font-size: 15px;
+}
+
+.footer .footer_content_the-skill,
+.footer .footer_content_address,
+.footer .footer_content_our-campus {
+  flex: 25%;
+}
+
+.footer .footer_content_for-devplus {
+  flex: 25%;
+  box-sizing: border-box;
+}
+
+.footer .class-shread::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #226fb7;
+}
+
+.footer li {
+  color: white;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 11px;
+}
+.footer p {
+  color: white;
+}
+
+.footer ul {
+  list-style: outside none none;
+  padding: 0px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_content_address_communications tr:hover,
+.footer_content_our-campus_three-plus li:hover,
+.link:hover,
+.footer_content_address_communications .content-call .address-call:hover,
+.footer_content_address_communications .content-gmail .address-gamil:hover {
+  color: #226fb7;
+}
+
+.footer .logo-address,
+.footer .logo-call,
+.footer .logo-gmail {
+  width: 30px;
+  height: 25px;
+  padding-right: 7px;
+}
+
+.footer .footer_content {
+  padding: 214px 0 93px;
+}
+
+.footer .footer_content .footer_content_address_communications img {
+  position: absolute;
+}
+
+.footer .footer_content .footer_content_address_communications ul div {
+  padding-left: 35px;
+  color: #ffffff;
+}
+
+.footer .footer_content .footer_content_address_communications li {
+  margin-right: 15px;
+  padding-left: 0px;
+}
+
+.footer .footer_content .footer_content_address_communications li i::before {
+  color: #ffffff;
+}
+
+.footer .footer_desc {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.footer .footer_desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.footer .footer_desc_devplus {
+  width: 100%;
+}
+
+.footer .logo-devplus {
+  width: 190px;
+  height: 32px;
+}
+
+.footer .link-facebook {
+  display: flex;
+  align-items: center;
+}
+
+.fotter .logo-facebook i {
+  font-size: 15px;
+}
+
+.footer .logo-facebook {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background: #226fb7;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.footer .logo-facebook:hover 
+{
+  background: #273c66;
+}
+
+.button_to-the-top {
+  right: 1.5%;
+  bottom: 37px;
+  position: fixed;
+  background: #226fb7;
+  border-radius: 50%;
+  height: 40px;
+  font-weight: 600;
+  width: 42px;
+  color: #fff;
+  line-height: 45px;
+  transition: all 0.3s ease;
+  margin-left: 2px;
+  box-shadow: 0px 0px 1px rgb(0 0 0 / 40%);
+  border: 0px solid #226fb7;
+  z-index: 1;
+}
+
+.fa-solid,
+.fas {
+  font-size: 18px;
+}
+
+.fa-brands,
+.fab {
+  font-weight: 400;
+  color: #226fb7;
+  font-size: 31px;
+}
+
+.logo-facebook i:hover {
+  color: rgb(25, 65, 122);
+}
+
+.footer_content_address_tittle,
+.footer_content_our-campus_tittle,
+.footer_content_for-devplus_tittle,
+.footer_content_the-skill_tittle {
+  font-family: "Nunito", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+.footer_top {
+  width: 100%;
+}
+
+.footer .logo-facebook path{
+  color: white;
+}
+.button_to-the-top path{
+  color: white;
+}
+
+.button_to-the-top 
+.button_to-the-top:hover{
+  background: #1e95ba;
+}
+
+ img .logo-devplus{
+  max-width: 0;
+}
+
+/* Tuan 3.5 admission */
+
+.dp-admission {
+  display: flex;
+  background: #f3f8f9;
+  align-items: center;
+
+}
+
+.dp-admission .admission_img {
+  width: 100%;
+  height: auto;
+}
+.dp-admission .admission_img,
+.dp-admission .amission_content {
+  flex: 50%;
+}
+
+ .amission_content {
+  padding: 0px 29px 0px 120px;
+  line-height: 26px;
+  margin-right: 40px;
+}
+
+.dp-admission .amission_content  a {
+  color: white;
+  text-decoration: none;
+}
+.dp-admission .amission_content_btn_apply {
+  border-radius: 30px;
+  color: #ffffff;
+  background: #226FB7;
+  padding: 20px 64px;
+  border: 0px solid #226FB7;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+
+}
+ a.amission_content_btn_apply{
+  padding: 19px 58px;
+}
+
+.dp-admission .amission_content h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+}
+
+.dp-admission .amission_content_container_disclaimer,
+.dp-admission .amission_content_container_desc {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #505050;
+
+}
+
+
+.dp-admission .amission_content_btn_apply:hover{
+  background: #1e95ba;
+}
+
+.dp-admission .amission_content_btn {
+  padding: 52px 0px;
+}
+
+.dp-admission .amission_content_container {
+  max-width: 700px;
+}
+.dp-admission h1{
+  font-family: 'Nunito', sans-serif;
+}
+/* .class-shread::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #226FB7;
+} */
+.dp-admission .font-rubik{
+  font-family: 'Rubik', sans-serif;
+}
