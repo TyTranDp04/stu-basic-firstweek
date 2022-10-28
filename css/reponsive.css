@@ -1,3 +1,71 @@
+@media screen and (max-width: 1270px) {
+  .our__main-container{
+    max-width: 1170px
+    
+  }
+  .courses__item{
+    width: 30%;
+  }
+  .main__nav li a{
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  .our__main{
+    height: 100vh;
+  }
+  .our__main-container{
+    margin: auto;
+    max-width: 720px;
+    padding: 64px 0 40px 0;
+  }
+  .our__main-title h1{
+    font-size: 30px;
+    margin: 0;
+  }
+  .courses__item{
+    flex: 0 0 auto;
+    width: 45.8%;
+    padding-bottom: 0;
+    height: 335px;
+    margin-bottom: 30px;
+  }
+  
+  .courses__item img{
+    height: auto;
+    width: 100%;
+  }
+  .courses__item  span{
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our__main-container{
+    margin: auto;
+    max-width: 540px;
+    padding-top: 0;
+  }
+  .dp-campus{
+    padding: 64px 0 40px 0;
+  }
+  .courses__item{
+    flex: 100%;
+    margin-bottom: 30px;
+    height:425px;
+  }
+  
+}
+@media screen and (max-width: 425px) {
+  .courses__item{
+    flex: 100%;
+    margin-bottom: 30px;
+    height: 355px;
+  }
+  
+}
+
+
+
 @media only screen and (max-width: 1440px) {
   .dp__background-title {
     font-size: 45px;
