@@ -529,7 +529,7 @@ img {
   left: 50%;
   transform: translateX(-50%);
   list-style: none;
-  display: flex !important;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 0 20px;
