@@ -297,3 +297,49 @@
 }
 
 /* end responsive */
+
+/* Tuan-reponsive-Footer */
+
+
+@media only screen and (max-width: 1366px) {
+  .footer_content {
+    max-width: 1170px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer_content {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  .footer_content {
+    max-width: 720px;
+  }
+  .footer_content {
+    flex-direction: column;
+  }
+  .footer_content_for-devplus,
+  .footer_content_our-campus,
+  .footer_content_the-skill,
+  .footer_content_address {
+    flex: 100%;
+  }
+  .facebook-text {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) { 
+  .footer_content {
+    max-width: 540px;
+  }
+}
+
+
+
+
+
