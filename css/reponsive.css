@@ -172,3 +172,123 @@
     flex-direction: column-reverse;
   }
 }
+
+/* responsive */
+
+@media (max-width: 1200px) {
+  .concerns__collapse-content-item {
+    width: 90%;
+  }
+  .concerns__collapse-content-item .c__btn::before {
+    left: 11%;
+  }
+  .alumni-saying__body
+    .alumni-saying__content
+    .alumni-saying__card
+    .alumni-saying__item
+    .alumni-saying__item-footer {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .alumni-saying__body
+    .alumni-saying__content
+    .alumni-saying__card
+    .alumni-saying__item
+    .alumni-saying__item-header {
+    width: 100%;
+    padding: 40px;
+    height: auto;
+    background-color: #f3f8f9;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    min-height: 330px;
+  }
+  .alumni-saying__body
+    .alumni-saying__content
+    .alumni-saying__card
+    .alumni-saying__item
+    .alumni-saying__item-footer {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .concerns__body {
+    flex-wrap: wrap;
+  }
+  .concerns__collapse {
+    width: 100%;
+    padding-bottom:50px;
+  }
+  .concerns__img {
+    /* margin-top: 50px; */
+    width: 100%;
+  }
+  .concerns__collapse-content-item .c__btn::before {
+    left: 20%;
+  }
+  .dp-alumni-saying {
+    margin-top: 50px;
+  }
+  .alumni-saying__body
+    .alumni-saying__content
+    .alumni-saying__card
+    .alumni-saying__item
+    .alumni-saying__item-header {
+    width: 100%;
+    padding: 30px;
+    min-height: 200px;
+  }
+  .alumni-saying__body
+    .alumni-saying__content
+    .alumni-saying__card
+    .alumni-saying__item
+    .alumni-saying__item-header
+    .alumni-saying__header-1 {
+    padding: 40px 0px 0px;
+  }
+  .alumni-saying__body
+    .alumni-saying__content
+    .alumni-saying__card
+    .alumni-saying__item
+    .alumni-saying__item-header
+    .alumni-saying__header-1
+    .heard-1__img {
+    position: absolute;
+    width: 50px;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+@media (max-width: 580px) {
+  .concerns__collapse-content-item .c__btn{
+    width: 65%;
+    height: 85px; 
+  }
+  .concerns__collapse-content-item .c__btn::before{
+    left: 24%;
+  }
+  .concerns__collapse-content-item{
+    margin-top: 10%;
+  }
+  .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header .alumni-saying__header-1{
+    font-size: 21px;
+  }
+}
+@media (max-width: 350px) {
+  .concerns__collapse-content-item{
+    margin-top: 15%;
+  }
+  .alumni-saying__body .alumni-saying__content .alumni-saying__card .alumni-saying__item .alumni-saying__item-header .alumni-saying__header-1{
+    font-size: 16px;
+  }
+}
+@media (max-width: 270px) {
+  .concerns__collapse-title h2{
+    font-size: 22px;
+  }
+}
+
+/* end responsive */
