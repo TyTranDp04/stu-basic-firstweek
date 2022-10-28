@@ -15,4 +15,369 @@
   color: #505050;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-image: url(https://devplus.edu.vn/assets/images/bg/footer-bg.png);
+  background-color: #273c66;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  color: #505050;
+  font-family: 'Rubik', sans-serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer_content {
+  display: flex;
+  color: white;
+  margin: 0 120px;
+  width: 85%;
+}
+
+.footer_content_the-skill,
+.footer_content_for-devplus,
+.footer_content_our-campus,
+.footer_content_address {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.footer_content_the-skill_tittle,
+.footer_content_for-devplus_tittle,
+.footer_content_our-campus_tittle,
+.footer_content_address_tittle {
+  padding-bottom: 25px;
+}
+
+.footer_content p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.footer .text {
+  font-size: 15px;
+
+}
+
+.footer_content_the-skill {
+  flex: 25%;
+
+
+}
+
+.footer_content_for-devplus {
+  flex: 25%;
+  box-sizing: border-box;
+
+}
+
+
+
+.footer_content_address {
+  flex: 25%;
+}
+
+.footer_content_our-campus {
+  flex: 25%;
+}
+
+/* .content1-2 {
+  padding-left: 10px;
+
+} */
+
+.class-shread::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #226FB7;
+}
+
+li {
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 11px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ul {
+  list-style: outside none none;
+  padding: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_content_address_communications tr:hover,
+.footer_content_our-campus_three-plus li:hover,
+.link:hover,
+.footer_content_address_communications .content-call .address-call:hover,
+.footer_content_address_communications .content-gmail .address-gamil:hover {
+  color: #226FB7;
+}
+
+.logo-address,
+.logo-call,
+.logo-gmail {
+  width: 30px;
+  height: 25px;
+  padding-right: 7px;
+}
+
+.footer .footer_content {
+  padding: 214px 0 93px;
+}
+
+.footer .footer_content .footer_content_address_communications img {
+  position: absolute;
+}
+
+.footer .footer_content .footer_content_address_communications ul div {
+  padding-left: 35px;
+  color: #ffffff;
+}
+
+.footer .footer_content .footer_content_address_communications li {
+  margin-right: 15px;
+  padding-left: 0px;
+}
+
+.footer .footer_content .footer_content_address_communications li i::before {
+  color: #ffffff;
+}
+
+.footer .footer_desc {
+  /* content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 100%;
+  max-width: 1240px; */
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.footer_desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.footer_desc_devplus {
+  width: 25%;
+  float: left;
+}
+
+.logo-devplus {
+  width: 190px;
+  height: 32px;
+}
+
+.link-facebook {
+  width: 25%;
+  display: flex;
+  align-items: center;
+
+}
+
+.logo-facebook i {
+  font-size: 15px;
+}
+
+.logo-facebook {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background: #226FB7;
+  text-align: center;
+  margin-right: 10px;
+  float: right;
+}
+
+.logo-facebook:hover {
+  background: #273c66;
+}
+
+.button_to-the-top {
+
+  right: 1.5%;
+  bottom: 7%;
+  position: fixed;
+  background: #226FB7;
+  border-radius: 50%;
+  height: 40px;
+  font-weight: 600;
+  width: 42px;
+  color: #fff;
+  line-height: 45px;
+  transition: all 0.3s ease;
+  margin-left: 2px;
+  box-shadow: 0px 0px 1px rgb(0 0 0 / 40%);
+  border: 0px solid #226FB7;
+
+}
+
+
+.fa-solid,
+.fas {
+  font-size: 18px;
+
+}
+
+
+
+.fa-brands,
+.fab {
+  font-weight: 400;
+
+  color: #226FB7;
+
+  font-size: 31px;
+}
+
+.logo-facebook i:hover {
+  color: rgb(25, 65, 122);
+}
+
+
+.footer_content_address_tittle,
+.footer_content_our-campus_tittle,
+.footer_content_for-devplus_tittle,
+.footer_content_the-skill_tittle {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+/* .fa-facebook ::before {
+  color: white;
+} */
+
+/* .footer .footer-desc .link-facebook li{
+  display: inline;
+  margin:     ;
+} */
+
+
+
+/* DIV 5 */
+.dp-admission {
+  display: flex;
+  background: #f3f8f9;
+  align-items: center;
+
+}
+
+.admission_img {
+  /* padding: 15px 15px 15px 0px; */
+  width: 100%;
+  height: auto;
+}
+.admission_img,
+.amission_content {
+  flex: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+}
+
+.amission_content {
+  padding: 0px 29px 0px 120px;
+  line-height: 26px;
+  margin-right: 40px;
+}
+
+.amission_content_btn_apply {
+  border-radius: 30px;
+  color: #ffffff;
+  background: #226FB7;
+  padding: 20px 64px;
+  border: 0px solid #226FB7;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+
+}
+a.amission_content_btn_apply{
+  padding: 19px 58px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+}
+
+.amission_content_container_disclaimer,
+.amission_content_container_desc {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #505050;
+
+}
+
+
+.amission_content_btn_apply:hover,
+.button_to-the-top:hover {
+  background: #1e95ba;
+}
+
+.amission_content_btn {
+  padding: 52px 0px;
+}
+
+.amission_content_container {
+  max-width: 700px;
+}
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+.class-shread::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #226FB7;
 }
