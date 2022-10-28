@@ -1004,8 +1004,9 @@ img {
   background: transparent;
   position: absolute;
   z-index: 10044;
-  top: 5%;
-  left: 80%;
+  top: 12%;
+  left: 72%;
+  transform: translate(-50%, -50%);
   color: white;
   border: none;
   font-size: 30px;
