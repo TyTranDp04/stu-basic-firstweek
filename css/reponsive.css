@@ -340,6 +340,38 @@
 }
 
 
+/* Tuan 3.5 admission */
+@media only screen and (max-width :992px) {
+  .dp-admission {
+      flex-direction: column;
 
+  }
+
+  .admission_img, .amission_content {
+      flex: 100%;
+
+  }
+  .admission_img{
+      padding: 0;
+  }
+   .amission_content{
+       padding: 0 25px; 
+      margin-right: 0;
+      width: 100%;
+  }
+
+
+  .amission_content_container {
+      max-width: 700px;
+      
+  }
+}
+
+@media only screen and (max-width: 575px) {
+ 
+  .dp-admission .amission_content_btn_apply {
+    padding: 14px 30px;
+}
+}
 
 
