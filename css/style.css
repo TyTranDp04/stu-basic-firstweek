@@ -550,3 +550,242 @@ img {
 /* end body */
 
 /* end css alumni-saying */
+
+/* Tuan-footer */
+.footer {
+  background-image: url(https://devplus.edu.vn/assets/images/bg/footer-bg.png);
+  background-color: #273c66;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  color: #505050;
+  font-family: "Rubik", sans-serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.footer_content {
+  display: flex;
+  color: white;
+  margin: auto;
+  width: 85%;
+}
+
+.footer_content_the-skill,
+.footer_content_for-devplus,
+.footer_content_our-campus,
+.footer_content_address {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.footer_content_the-skill_tittle,
+.footer_content_for-devplus_tittle,
+.footer_content_our-campus_tittle,
+.footer_content_address_tittle {
+  padding-bottom: 25px;
+}
+
+.footer_content p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.footer .text {
+  font-size: 15px;
+}
+
+.footer_content_the-skill,
+.footer_content_address,
+.footer_content_our-campus {
+  flex: 25%;
+}
+
+.footer_content_for-devplus {
+  flex: 25%;
+  box-sizing: border-box;
+}
+
+.class-shread::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #226fb7;
+}
+
+.footer li {
+  color: white;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 11px;
+}
+.footer p {
+  color: white;
+}
+
+.fotter ul {
+  list-style: outside none none;
+  padding: 0px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_content_address_communications tr:hover,
+.footer_content_our-campus_three-plus li:hover,
+.link:hover,
+.footer_content_address_communications .content-call .address-call:hover,
+.footer_content_address_communications .content-gmail .address-gamil:hover {
+  color: #226fb7;
+}
+
+.logo-address,
+.logo-call,
+.logo-gmail {
+  width: 30px;
+  height: 25px;
+  padding-right: 7px;
+}
+
+.footer .footer_content {
+  padding: 214px 0 93px;
+}
+
+.footer .footer_content .footer_content_address_communications img {
+  position: absolute;
+}
+
+.footer .footer_content .footer_content_address_communications ul div {
+  padding-left: 35px;
+  color: #ffffff;
+}
+
+.footer .footer_content .footer_content_address_communications li {
+  margin-right: 15px;
+  padding-left: 0px;
+}
+
+.footer .footer_content .footer_content_address_communications li i::before {
+  color: #ffffff;
+}
+
+.footer .footer_desc {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.footer_desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.footer_desc_devplus {
+  width: 100%;
+}
+
+.logo-devplus {
+  width: 190px;
+  height: 32px;
+}
+
+.link-facebook {
+  display: flex;
+  align-items: center;
+}
+
+.logo-facebook i {
+  font-size: 15px;
+}
+
+.logo-facebook {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background: #226fb7;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.logo-facebook:hover 
+{
+  background: #273c66;
+}
+
+.button_to-the-top {
+  right: 1.5%;
+  bottom: 37px;
+  position: fixed;
+  background: #226fb7;
+  border-radius: 50%;
+  height: 40px;
+  font-weight: 600;
+  width: 42px;
+  color: #fff;
+  line-height: 45px;
+  transition: all 0.3s ease;
+  margin-left: 2px;
+  box-shadow: 0px 0px 1px rgb(0 0 0 / 40%);
+  border: 0px solid #226fb7;
+  z-index: 1;
+}
+
+.fa-solid,
+.fas {
+  font-size: 18px;
+}
+
+.fa-brands,
+.fab {
+  font-weight: 400;
+  color: #226fb7;
+  font-size: 31px;
+}
+
+.logo-facebook i:hover {
+  color: rgb(25, 65, 122);
+}
+
+.footer_content_address_tittle,
+.footer_content_our-campus_tittle,
+.footer_content_for-devplus_tittle,
+.footer_content_the-skill_tittle {
+  font-family: "Nunito", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+.footer_top {
+  width: 100%;
+}
+
+path{
+  color: white;
+}
+.button_to-the-top:hover{
+  background: #1e95ba;
+}
+
+ img .logo-devplus{
+  max-width: 0;
+}
