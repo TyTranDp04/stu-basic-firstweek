@@ -27,14 +27,10 @@ for (var i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.maxHeight) {
       content.style.maxHeight = null;
-      console.log(typeof content.style.maxHeight);
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
     }
-    for (var j = 0; j < coll.length; j++) {
-      if (coll[j].classList.contains("active")) {
-      }
-    }
   });
 }
+
 // end collapse
