@@ -537,7 +537,7 @@ img {
   position: absolute;
   z-index: 10044;
   top: 5%;
-  left: 90%;
+  left: 80%;
   color: white;
   border: none;
   font-size: 30px;
@@ -583,8 +583,8 @@ img {
 }
 .concerns__img-icon:hover .concerns__img-btn {
   background: #226fb7;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   opacity: 0.4;
 }
 .concerns__img .concerns__img-icon .concerns__img-icon-btn {
